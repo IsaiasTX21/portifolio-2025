@@ -1,0 +1,97 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+height: 100%;
+}
+
+
+@keyframes fade {
+  from {
+  opacity: 0 ;
+  }
+
+  to {
+    opacity: 1 ;
+  }
+}
+
+@keyframes fadephoto {
+  from {
+    transform: rotate(0deg);
+    position: relative;
+    left: 500px;
+    opacity: 0;
+  }
+
+  to {
+    transform: rotate(-360deg);
+    left: 100px;
+  }
+}
+
+@keyframes fadephotomobile {
+  from {
+    transform: rotate(0deg);
+    position: relative;
+    left: 200px;
+    opacity: 0;
+  }
+
+  to {
+    transform: rotate(-360deg);
+    left: 0px;
+
+  }
+}
+
+.fadephotomobile {
+  animation: fadephotomobile;
+  animation-duration: 1.5s;
+
+}
+
+.fadephoto {
+  animation: fadephoto;
+  animation-duration: 1.5s;
+  animation-timeline: initial;
+}
+
+
+.fade {
+  animation: fade;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .desk {
+    display: none !important;
+  }
+
+  .sm {
+    display: none !important;
+  }
+
+}
+
+p {
+  color: #6e6c6c !important;
+  text-align: center;
+}
+a{
+  color: #6e6c6c !important;
+  cursor: pointer;
+}
+h1 {
+  color: #6e6c6c !important;
+}
+
+header {
+  height: 10x;
+  background-color: black;
+}
+
