@@ -15,8 +15,7 @@ function Body() {
             o meu mundo como eu vejo. Minha paixão por tecnologia faz meu coração acelerar e superar meus limites. </p>
 
           <img style={{ width: "260px", height:"260px", left: "100px", top:"10vh" }}  src="https://i.ibb.co/Kc1qbVZf/Imagem-do-Whats-App-de-2025-02-11-s-18-31-07-9ac51c7c.jpg" className=" fadephoto  float-end position-relative"  />
-          <div style={{ bottom: "180px" }} className="  d-flex position-relative justify-content-center w-100 " >
-            <a href="src/Isaiascurrículo.pdf.pdf" download className="  btn btn-dark text-white text-center" >currículo</a>  </div>
+         
         </div>
 
         <div style={{ height: "95vh", backgroundImage: "url('https://i.ibb.co/p6CTDLCB/Captura-de-tela-2025-02-10-194259.png')", backgroundSize: "cover" }} className=" col-md-5 "></div>
