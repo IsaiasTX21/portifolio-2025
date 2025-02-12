@@ -24,7 +24,7 @@ function Projects() {
 
                     </div>
                     <div style={{ maxHeight: "300px", backgroundColor: "black" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://silver-gelato-d78a10.netlify.app/" className="fade">  <img style={{ maxHeight: "300px",width:"300px"}} src="https://i.ibb.co/3m84LsSQ/Captura-de-tela-2025-02-12-110344.png" alt="" /></a>
+                        <a href="https://harmonious-custard-aa3eb8.netlify.app/" className="fade">  <img style={{ maxHeight: "300px",width:"300px"}} src="https://i.ibb.co/3m84LsSQ/Captura-de-tela-2025-02-12-110344.png" alt="" /></a>
                    
                     </div>
                     <div className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center ">
