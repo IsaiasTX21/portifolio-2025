@@ -15,7 +15,7 @@ function Projects() {
                     </section>
 
                     <section style={{ maxHeight: "270px", backgroundColor: "black" }} className=" mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://jocular-daffodil-e0d258.netlify.app/" className="fade">  <img style={{ maxHeight: "300px",width:"300px" }} src="https://i.ibb.co/zV0DjSW0/Captura-de-tela-2025-02-09-190749.png" alt="" /></a>
+                        <a href="https://whimsical-beignet-2ebfa9.netlify.app/" className="fade">  <img style={{ maxHeight: "300px",width:"300px" }} src="https://i.ibb.co/zV0DjSW0/Captura-de-tela-2025-02-09-190749.png" alt="" /></a>
                     
                     </section>
                     <section className="  mt-5  col-md-5 d-flex flex-column justify-content-around align-items-center ">
@@ -24,7 +24,7 @@ function Projects() {
 
                     </section>
                     <section style={{ maxHeight: "300px", backgroundColor: "black" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://harmonious-custard-aa3eb8.netlify.app/" className="fade">  <img style={{ maxHeight: "300px",width:"300px"}} src="https://i.ibb.co/3m84LsSQ/Captura-de-tela-2025-02-12-110344.png" alt="" /></a>
+                        <a href="https://enchanting-peony-5e913e.netlify.app/" className="fade">  <img style={{ maxHeight: "300px",width:"300px"}} src="https://i.ibb.co/3m84LsSQ/Captura-de-tela-2025-02-12-110344.png" alt="" /></a>
                    
                     </section>
                     <section className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center ">
