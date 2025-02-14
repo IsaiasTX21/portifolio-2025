@@ -2,7 +2,7 @@ function Sobremim() {
   return (
     <div style={{
       position: "relative", display: "flex", flexDirection: "column", backgroundColor: "black", minHeight: "100vh"}}>
-      <div style={{ marginTop: "12vh" }} className="   d-flex flex-column flex-md-row  faderight  container">
+      <main style={{ marginTop: "12vh" }} className="   d-flex flex-column flex-md-row  faderight  container">
         <img className=" h-50 ms-auto me-auto" style={{ maxWidth: "300px" }}
           src="https://i.ibb.co/GvdxFJYs/Captura-de-tela-2025-02-10-143923-Photoroom-1.jpg"
           alt="Imagem de Isaías" />
@@ -14,7 +14,7 @@ function Sobremim() {
         </p>
         <a  href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link"  className="   btn btn-dark text-white w-25" >currículo</a>
        </div>
-      </div>
+      </main>
       
     </div>
   );
