@@ -16,7 +16,7 @@ function Body() {
 
           
           <div className="  d-flex position-relative justify-content-center mt-5 w-100 " >
-          <a  href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link"  className="fade btn btn-primary  text-white " >currículo</a>
+          <a  href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link"  className="fade  btn btn-outline-primary mt-5  text-white " >currículo</a>
           </div>
         </main>
 
@@ -31,7 +31,7 @@ function Body() {
           <h1 className="  text-primary mt-3 text-center"> Hello world !</h1>
           <p style={{ fontSize: "18px" }} className="text-center ms-auto me-auto  w-75 mt-3">Me chamo isaias e gostaria que voce enchergasse
             o meu mundo como eu vejo. Minha paixão por tecnologia faz meu coração acelerar e superar meus limites. </p>
-            <a  href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link"  className=" btn btn-primary mt-5  text-white " >currículo</a>
+            <a  href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link"  className=" btn btn-outline-primary mt-3  text-white " >currículo</a>
         </main>
 
         <div style={{ height: "25vh", backgroundColor: "black" }} className=" d-flex justify-content-center align-items-end ">
