@@ -7,14 +7,15 @@ function Header() {
 
   return (
     <>
-<header style={{height:"5vh"}} className="sticky-top " >
+    
+<header style={{height:"5vh"}} className="sticky-top  " >
   <nav class="navbar d-flex  h-100">
 
-      <div class="  w-100 position-absolute" >
-        <ul className="d-flex justify-content-around">
-        <li> <a onClick={()=> navigate("/")} class="navbar-brand  ">Principal</a> </li>
-        <li> <a onClick={()=> navigate("/sobremim")}  class="navbar-brand " >Sobre mim</a></li>
-        <li><a onClick={()=> navigate("/projects")} class="navbar-brand " >Projetos</a> </li>
+      <div class="  w-100 position-absolute " >
+        <ul className="d-flex justify-content-around p-0 m-0">
+        <li><a className="navbar-brand text-primary lead" onClick={()=> navigate("/")} >Principal</a> </li>
+        <li><a className="navbar-brand text-primary lead" onClick={()=> navigate("/sobremim")}  >Sobre mim</a></li>
+        <li><a className="navbar-brand text-primary lead" onClick={()=> navigate("/projects")} >Projetos</a> </li>
         </ul>
    
       </div>
