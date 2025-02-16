@@ -21,48 +21,6 @@ height: 100%;
   }
 }
 
-@keyframes fadephoto {
-  from {
-    transform: rotate(0deg);
-    position: relative;
-    left: 500px;
-    opacity: 0;
-  }
-
-  to {
-    transform: rotate(-360deg);
-    left: 100px;
-  }
-}
-
-@keyframes fadephotomobile {
-  from {
-    transform: rotate(0deg);
-    position: relative;
-    left: 200px;
-    opacity: 0;
-  }
-
-  to {
-    transform: rotate(-360deg);
-    left: 0px;
-
-  }
-}
-
-.fadephotomobile {
-  animation: fadephotomobile;
-  animation-duration: 1.5s;
-
-}
-
-.fadephoto {
-  animation: fadephoto;
-  animation-duration: 1.5s;
-  animation-timeline: initial;
-}
-
-
 .fade {
   animation: fade;
   animation-duration: 3s;
@@ -87,12 +45,20 @@ h1 {
    color:" #6F848C"
 }
 
-header {
-  height: 10x;
-  background-color: black;
-}
-
 .btn-primary{
   background-color: rgb(30, 43, 225) !important;
   border: 0px solid white;
+}
+
+@media only screen and (width > 768px) {
+  .aboutme {
+  margin-top: 20vh; 
+  }
+}
+
+@media only screen and (width < 768px) {
+  .aboutme {
+  margin-top: auto;
+  margin-bottom: auto; 
+  }
 }
