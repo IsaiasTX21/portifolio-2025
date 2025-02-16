@@ -8,7 +8,7 @@ function Body() {
 
       <div className=" d-md-flex desk  ">
 
-        <main style={{ height: "100vh", backgroundColor: "black" }} className=" d-flex flex-column text-center  col-md-8    ">
+        <main style={{ height: "100vh", backgroundColor: "#01011A" }} className=" d-flex flex-column text-center  col-md-8    ">
           <Header />
           <h1  style={{ color:"#6F848C" }} className="text-center mt-2  mt-4 fade "> Hello world !</h1>
           <p style={{ fontSize: "18px" ,color:"#6F848C" }} className=" w-50 mt-4 fade ms-auto me-auto ">Me chamo Isaias e gostaria que voce enxergasse
@@ -22,7 +22,7 @@ function Body() {
 
       <div className="  d-md-none mobile d-flex flex-column   ">
 
-        <main   style={{ backgroundImage: "url('https://i.ibb.co/7J2skrVw/6757736-3397562.jpg')", backgroundSize: "cover", height:"100vh"}} className="text-center"  >
+        <main   style={{ backgroundColor: "#01011A", height:"100vh"}} className="text-center"  >
           <Header />
     
           <h1 style={{ color:"#6F848C" }}  className=" mt-5  text-center "> Hello world !</h1>

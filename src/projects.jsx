@@ -5,10 +5,10 @@ function Projects() {
     return (
         <>
         <Header/>
-            <div style={{ backgroundImage: "url('https://i.ibb.co/JV35MtD/3413.jpg')", backgroundSize: "cover"}} className="container-fluid w-100 bg-black"   >
+            <div style={{  backgroundColor: "#01011A"}} className="container-fluid w-100 "   >
                 <div className="row" >
 
-                    <section style={{ maxHeight: "470px" }} className=" mt-5  col-md-7 d-flex justify-content-center">
+                    <section style={{ maxHeight: "470px" ,}} className=" mt-5  col-md-7 d-flex justify-content-center">
                         <a href="https://monumental-daffodil-f8f686.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%",width:"100%" }} src="https://i.ibb.co/9kT606g6/Captura-de-tela-2025-02-09-190525.png" alt="" /></a>
                     </section>
                     <section className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center">
