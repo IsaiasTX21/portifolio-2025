@@ -24,7 +24,7 @@ function Body() {
 
         <main style={{ height: "50vh", backgroundColor: "black" }} className="text-center"  >
           <Header />
-          <h1 className=" mt-3 text-primary text-center "> Hello world !</h1>
+          <h1 style={{ color:"#6F848C" }}  className=" mt-3  text-center "> Hello world !</h1>
           <p style={{ fontSize: "18px", color:" #6F848C "}} className="text-center  ms-auto me-auto  ">Me chamo isaias e gostaria que voce enchergasse
             o meu mundo como eu vejo. Minha paixão por tecnologia faz meu coração acelerar e superar meus limites. </p>
       <a style={{position:"relative", top:"5vh"}} href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" className=" btn btn-primary  text-white " >currículo</a>         
