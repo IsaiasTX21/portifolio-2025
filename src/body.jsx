@@ -8,10 +8,10 @@ function Body() {
 
       <div className=" d-md-flex desk  ">
 
-        <main style={{ height: "100vh", backgroundColor: "black" }} className=" d-flex flex-column  col-md-7    ">
+        <main style={{ height: "100vh", backgroundColor: "black" }} className=" d-flex flex-column text-center col-md-7    ">
           <Header />
           <h1  style={{ color:"#6F848C" }} className="text-center mt-2  mt-4 fade "> Hello world !</h1>
-          <p style={{ fontSize: "18px" ,color:"#6F848C" }} className=" mt-4 fade text-center ">Me chamo Isaias e gostaria que voce enxergasse
+          <p style={{ fontSize: "18px" ,color:"#6F848C" }} className=" mt-4 fade " w-75 mt-4 fade ms-auto me-auto  ">Me chamo Isaias e gostaria que voce enxergasse
             o meu mundo como eu vejo. Minha paixão por tecnologia faz meu coração acelerar e superar meus limites. </p>
           <a href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" className="fade btn btn-primary ms-auto me-auto mt-5  text-white " >currículo</a>
         </main>
