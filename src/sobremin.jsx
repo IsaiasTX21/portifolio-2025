@@ -5,7 +5,7 @@ function Sobremim() {
     <Header/>
     <div style={{
       position: "relative", display: "flex", flexDirection: "column", backgroundColor: "black", minHeight: "100vh"}}>
-      <main style={{ marginTop: "20vh" }} className="d-flex flex-column flex-md-row  faderight  container">
+      <main style={{ marginTop: "12vh" }} className="d-flex flex-column flex-md-row  faderight  container">
        <img style={{height:"30vh"}}  className="fadephoto mt-auto mb-auto" 
           src="https://i.ibb.co/GvdxFJYs/Captura-de-tela-2025-02-10-143923-Photoroom-1.jpg"
           alt="Imagem de Isaías" />
