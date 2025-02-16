@@ -10,7 +10,7 @@ function Sobremim() {
           src="https://i.ibb.co/GvdxFJYs/Captura-de-tela-2025-02-10-143923-Photoroom-1.jpg"
           alt="Imagem de Isaías" />
           <div className="text-center fadephoto"> 
-        <p className="mt-5 mt-md-0 " style={{ fontSize: "15px" }}>
+        <p className="mt-5 mt-md-0 "  style={{ fontSize: "15px",color:"#6F848C" }}>
           Hello world! Meu nome é Isaías Caetano de Oliveira e a tecnologia faz parte da minha vida desde a infância. Sempre gostei de entender como os computadores funcionam. Em 2022, tive a oportunidade de ingressar em um curso universitário no qual me identifiquei bastante com o desenvolvimento front-end. A forma como as páginas interagem com o usuário, as cores, os layouts... tudo isso chamou minha atenção e eu me apaixonei por essa área. Sou um jovem que não mede esforços para encontrar soluções para os meus problemas.
           Também tenho alguns hobbies, como a música. Toco alguns instrumentos musicais e sou apaixonado pela língua inglesa, um idioma que tem me ajudado bastante nos meus estudos e na comunicação com o mundo.
        </p>

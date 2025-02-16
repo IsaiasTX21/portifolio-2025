@@ -10,8 +10,8 @@ function Body() {
 
         <main style={{ height: "100vh", backgroundColor: "black" }} className=" d-flex flex-column  col-md-7    ">
           <Header />
-          <h1 className="text-center mt-2 text-primary mt-4 fade "> Hello world !</h1>
-          <p style={{ fontSize: "18px" }} className=" mt-4 fade ">Me chamo Isaias e gostaria que voce enxergasse
+          <h1  style={{ color:"#6F848C" }} className="text-center mt-2  mt-4 fade "> Hello world !</h1>
+          <p style={{ fontSize: "18px" ,color:"#6F848C" }} className=" mt-4 fade text-center ">Me chamo Isaias e gostaria que voce enxergasse
             o meu mundo como eu vejo. Minha paixão por tecnologia faz meu coração acelerar e superar meus limites. </p>
           <a href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" className="fade btn btn-primary ms-auto me-auto mt-5  text-white " >currículo</a>
         </main>
@@ -24,8 +24,8 @@ function Body() {
 
         <main style={{ height: "50vh", backgroundColor: "black" }} className="text-center"  >
           <Header />
-          <h1 className=" mt-3 text-primary text-center"> Hello world !</h1>
-          <p style={{ fontSize: "18px" }} className="text-center ms-auto me-auto  ">Me chamo isaias e gostaria que voce enchergasse
+          <h1 className=" mt-3 text-primary text-center "> Hello world !</h1>
+          <p style={{ fontSize: "18px", color:" #6F848C "}} className="text-center  ms-auto me-auto  ">Me chamo isaias e gostaria que voce enchergasse
             o meu mundo como eu vejo. Minha paixão por tecnologia faz meu coração acelerar e superar meus limites. </p>
       <a style={{position:"relative", top:"5vh"}} href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" className=" btn btn-primary  text-white " >currículo</a>         
         </main>

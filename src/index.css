@@ -80,18 +80,11 @@ height: 100%;
   }
 
 }
-
-p {
-  color: #6e6c6c !important;
-  text-align: center;
-  font-size: 25px;
-}
-a{
-  color: #6e6c6c !important;
+  a{
   cursor: pointer;
 }
 h1 {
-  color: #6e6c6c !important;
+   color:" #6F848C"
 }
 
 header {
