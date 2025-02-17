@@ -50,17 +50,26 @@ h1 {
   border: 0px solid white;
 }
 
-@media only screen and (width > 768px) {
-  .aboutme {
-  margin-top: 20vh; 
-  }
-}
+.aboutme{
+  background-image: url("src/411047335_226b4cee-712a-4dcd-a1b7-43ad644aa0a2-Photoroom.jpg"); 
+   background-size: 700px;
+   background-repeat: no-repeat;
+   background-position-x: 50%;
+   background-position-y: 250px;
+
+    }
 
 @media only screen and (width < 768px) {
   .aboutme {
+
   margin-top: auto;
   margin-bottom: auto; 
+  background-image: none;
   }
+
+
 }
+
+
 
 
