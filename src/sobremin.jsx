@@ -6,15 +6,14 @@ function Sobremim() {
       <div style={{display: "flex", flexDirection: "column", backgroundColor: "#01011A" }}>
    
 
-        <main style={{minHeight:"95vh"}} className=" d-flex flex-column flex-md-row fade faderight aboutme  " >
+        <main style={{minHeight:"95vh"}} className=" d-flex flex-column flex-md-row fade faderight aboutme " >
 
           <div className="text-center fadephoto">
             <h1 style={{ color: "#6C828C" , marginTop:"7vh" }} className="mb-5">Trajetória</h1>
             <p className=" mt-md-0 w-75 ms-auto me-auto " style={{ fontSize: "17px", color: "#6F848C" }}>
-              Sempre gostei de entender como os computadores funcionam. Em 2022, tive a oportunidade de ingressar em um curso universitário no qual me identifiquei bastante com o desenvolvimento front-end. A forma como as páginas interagem com o usuário, as cores, os layouts... tudo isso chamou minha atenção e eu me apaixonei por essa área. Sou um jovem que não mede esforços para encontrar soluções para os meus problemas.
-
+            Sempre tive uma grande curiosidade sobre o funcionamento dos computadores. Em 2022, tive a oportunidade de iniciar um curso universitário e logo me identifiquei com o desenvolvimento front-end. A maneira como as páginas web interagem com o usuário, a escolha das cores, os layouts – tudo isso me fascinou profundamente. Foi então que me apaixonei por essa área. Sou um jovem dedicado, que não mede esforços para encontrar soluções criativas e eficazes para os desafios que enfrento.
             </p>
-            <p style={{ fontSize: "17px", color: "#6F848C" }}>Conhecimentos:</p>
+            <h2 style={{  color: "#6F848C" }}>Habilidades</h2>
 
             <div className="d-flex justify-content-center ">
               <div className="ms-1">

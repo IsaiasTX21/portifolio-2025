@@ -6,11 +6,6 @@
 text-decoration: none;
 }
 
-
-body{
-height: 100%;
-}
-
 @keyframes fade {
   from {
   opacity: 0 ;
@@ -31,6 +26,7 @@ height: 100%;
 @media only screen and (max-width: 768px) {
   .desk {
     display: none !important;
+
   }
 
   .sm {
