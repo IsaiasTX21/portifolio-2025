@@ -16,6 +16,7 @@ function Header() {
         <li><a style={{color:"#6F848C"}} className="navbar-brand fade " onClick={()=> navigate("/")} >Principal</a> </li>
         <li><a style={{color:"#6F848C"}} className="navbar-brand fade" onClick={()=> navigate("/sobremim")}  >Sobre mim</a></li>
         <li><a style={{color:"#6F848C"}} className="navbar-brand fade " onClick={()=> navigate("/projects")} >Projetos</a> </li>
+        
         </ul>
    
       </div>
