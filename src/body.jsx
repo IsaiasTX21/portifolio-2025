@@ -9,7 +9,7 @@ function Body() {
    
       <div className=" d-md-flex desk flex-column   ">
      
-        <main style={{ height: "95vh", backgroundColor: "#01011A", backgroundRepeat:"no-repeat", backgroundSize:"100vh", backgroundImage:"url('https://i.ibb.co/HLC6rDTz/planet-earth-1457453-1280-Photoroom.jpg')", backgroundPositionY:"100%", backgroundPositionX:"50%" }} className=" d-flex flex-column text-center  col-md-12    ">
+        <main style={{minHeight: "95vh", backgroundColor: "#01011A", backgroundRepeat:"no-repeat", backgroundSize:"95vh", backgroundImage:"url('https://i.ibb.co/HLC6rDTz/planet-earth-1457453-1280-Photoroom.jpg')", backgroundPositionY:"100%", backgroundPositionX:"50%" }} className=" d-flex flex-column text-center  col-md-12    ">
         <img className="ms-auto me-auto" style={{width:"150px",marginTop:"20px"}} src="Sun PNG - Free Download-Photoroom (1).jpg"/>
           <h1 style={{ color: "#6F848C", marginTop: "5vh" }} className="text-center fade "> Hello world !</h1>
         
@@ -24,7 +24,7 @@ function Body() {
 
       <div className="  d-md-none mobile d-flex flex-column   ">
 
-        <main style={{ height: "95vh", backgroundColor: "#01011A", backgroundRepeat:"no-repeat", backgroundSize:"100vh", backgroundImage:"url('https://i.ibb.co/HLC6rDTz/planet-earth-1457453-1280-Photoroom.jpg')", backgroundPositionY:"100%", backgroundPositionX:"50%" }} className=" text-center"  >
+        <main style={{ minHeight: "95vh", backgroundColor: "#01011A", backgroundRepeat:"no-repeat", backgroundSize:"95vh", backgroundImage:"url('https://i.ibb.co/HLC6rDTz/planet-earth-1457453-1280-Photoroom.jpg')", backgroundPositionY:"100%", backgroundPositionX:"50%" }} className=" text-center"  >
         <img className="ms-auto me-auto" style={{width:"150px",marginTop:"20px"}} src="Sun PNG - Free Download-Photoroom (1).jpg"/>
           <h1 className="fade" style={{ color: "#6F848C", marginTop: "10vh" }} > Hello world !</h1>
           <p style={{ fontSize: "18px", color: " #6F848C " }} className="fade mt-5 ">Me chamo isaias e gostaria que voce enchergasse
