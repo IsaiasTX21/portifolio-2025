@@ -9,7 +9,7 @@ function Projects() {
                 <div className="row" >
 
                     <section style={{ maxHeight: "470px", }} className=" mt-5  col-md-7 d-flex justify-content-center">
-                        <a href="https://monumental-daffodil-f8f686.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/9kT606g6/Captura-de-tela-2025-02-09-190525.png" alt="" /></a>
+                        <a href="https://monumental-daffodil-f8f686.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/fGBtSRZT/Captura-de-tela-2025-02-17-131054.png" alt="" /></a>
                     </section>
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
                         <h1 style={{ color: "#6F848C" }} className="text-center mt-5  fade  ">Movie</h1>
@@ -36,7 +36,7 @@ function Projects() {
                             <img className="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD/0lEQVR4nO2Y3WtcRRiHV+g/IKg9s9pcWJVeCt4VEdS01ptetje9akVNztkoggW/GlExMUKhUkigBQPFgFUsTYooSC1VaSghwS+K0aqtSUy2aXaTTfYjOzNPmXN2sysmu2d2YzbFfeHH3rzM+T3vvO/sOROJNKMZzfh/RGeELW0t3LkR6oywZd2Me1H2ew5jrkB5AjZCrnmWw1j7VvbVZ15weKNMe2tpKy/XZL7jXh70BLLRAK4g334fD9RS/Vcbbd4rQbxiDeAK+jYRQF8tO9DfaONeSf32O+AwsAmM48vhI3sAwScNNy5WdNoawBMMhVm8exf/DA3aSIGSoPKQz0D8D82lAU3P0zXMgMOg/Q44jNoCFI1rWTIvlzUyFyif1SwvaYa6LQEEI5b2ucN1SIQFKK/4lx8UdEzzxTHNV72a0UFNel6Tz2iW0wHEyWesZmDOeLJpnx1hF/cBCuZlbu281x6GqSuB+dyiZvxbbbcLUR4KD+DwXGiA1rJez1Y2dfIQvvlsSrM4q4lFrebgeZsdGLYCMH2+HLRIpdyuJyG7oMkuKOauK9s5uBTKfEyw22bhrlZKA5quDNDvarLzikxSMXLGroU8oyitlc3fzXbPYcIWwJg31TftsVZez1MQ/zUwn4or3n7M0rzw2+ivtnu4f7WW2eE6HPEESdtFTVsUTxcD8FkngY7A2XfgwgnNla8D45mEYmZccXSvvXmvpKTn8IbxXA7QW+uCBsA/WQqnSy4VDKnp80yhXYzSCcXvw4q+A5oXWuoCoKDedQMoNz75s2byJ8WE0Y/Kb5v0XKClm4qlWcW1MUXPnnUE6BC0uIKYK5iuCcCvuPYrvVqOqfj7e+Dyac3iDcViXDH3p+KtnTXMQeDRM57/NQsv3oXwBFdtAYrtYqpcLX94QJOakaSmJd+dsj5KfzMeK55E7YJHrQCeYKXPTYtUyz++X7MwLVn4W3JjXNoA6FiUnZEw4TpcDLvwuwYgEQyp6e9q+Uf3at/8/JQkOSHp2Ba6+hciYSMW5aANQHFATX9Xyz/zpmJ+Uvqa+N5qBw6FBzB/aBYAxdMlNVMZ4Pg+zezVwLzR+d7wM7DqH1iVNroZCuBxfPOm+gbgXLfmXLf5VQx1KT5/T/HNh4rxi6XKG8V/kbz+SMjqO8xamfcBBCNhAcyxaF4PiqeL6XFfUyXD5bo+KunZbfUudNkewGEwLMCK8enVjSeuSSZ/kIx8qjgV07y0PbRxCjtw9nb/qP/YGsBcZWwC49R8rXLbX2x5dbzgbZarxcONNu7Vc8Xuv6E65Bpt3nXItkXZZg1QdjuhGwigXcGzkXrCfOS7gvO1fG7WoaR5pivYVZf5ZjSjGc2I/NdxCxYXR2hUdbejAAAAAElFTkSuQmCC" alt="bootstrap"></img></div>
                     </section>
                     <section style={{ maxHeight: "470px" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://enchanting-peony-5e913e.netlify.app/" className="fade">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/3m84LsSQ/Captura-de-tela-2025-02-12-110344.png" alt="" /></a>
+                        <a href="https://enchanting-peony-5e913e.netlify.app/" className="fade">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/fV4c8kbj/Captura-de-tela-2025-02-17-130059.png" alt="" /></a>
 
                     </section>
                     <section className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center ">
@@ -51,7 +51,7 @@ function Projects() {
                     </section>
 
                     <section style={{ maxHeight: "470px" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://isaiasdesemvolvedor.github.io/calculadora/" className="fade ">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/PZJdrJ6T/Captura-de-tela-2025-02-14-223130.png" alt="" /></a>
+                        <a href="https://isaiasdesemvolvedor.github.io/calculadora/" className="fade ">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/mVqMNtLG/Captura-de-tela-2025-02-17-115403.png" alt="" /></a>
                     </section>
                     <section className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center ">
                         <h1 style={{ color: "#6F848C" }} className="text-center mt-5 fade  "> calculator</h1>
