@@ -9,7 +9,7 @@ function Projects() {
                 <div className="row" >
 
                     <section style={{ maxHeight: "470px", }} className=" mt-5  col-md-7 d-flex justify-content-center">
-                        <a href="https://monumental-daffodil-f8f686.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/fGBtSRZT/Captura-de-tela-2025-02-17-131054.png" alt="" /></a>
+                        <a href="https://monumental-daffodil-f8f686.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src="https://i.ibb.co/4qF15Kv/Captura-de-tela-2025-02-17-193730.png" alt="" /></a>
                     </section>
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
                         <h1 style={{ color: "#6F848C" }} className="text-center mt-5  fade  ">Movie</h1>
