@@ -5,16 +5,16 @@
   list-style: none;
  text-decoration: none;
  cursor: url(136480024_27bb866d-8a3c-41fe-88ef-528d3e8772a1.svg) 16 16, pointer ;
- 
-
-
 
 }
 
 #resume{
  text-decoration: none;
  cursor: url(136480024_27bb866d-8a3c-41fe-88ef-528d3e8772a1.svg)  16 16, pointer ;
+text-decoration: none;
+
 }
+
 
 @keyframes fade {
   from {
