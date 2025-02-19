@@ -17,7 +17,7 @@ function Body() {
             enxergasse o meu mundo como eu vejo. Minha paixão por tecnologia faz meu coração acelerar e superar meus limites. </p>
 
           
-          <a href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" className=" fade mt-2 btn ms-auto me-auto btn-primary text-white " >currículo</a>
+          <a  id="resume" href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" className=" fade mt-2 btn btn-primary ms-auto me-auto  text-white " >currículo</a>
         </main>
 
       </div>

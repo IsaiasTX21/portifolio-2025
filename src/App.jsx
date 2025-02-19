@@ -12,15 +12,16 @@ function App() {
 
 
   return (
-    <>
+    <div className="App"> 
+    
     <BrowserRouter>    
      <Routes>
       <Route path="" element={<Body/>} />
         <Route path="/sobremim" element={<Sobremim/>} />
-       <Route path="/projects"  element={<Projects/>}>  </Route>
+       <Route path="/projects"  element={<Projects/>}/> 
      </Routes>
     </BrowserRouter>
-    </>
+    </div>
   )
 }
 
