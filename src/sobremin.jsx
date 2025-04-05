@@ -5,7 +5,7 @@ function Sobremim() {
       <Header />
       <div style={{ display: "flex", flexDirection: "column", backgroundColor: "#01011A" }}>
 
-        <main style={{ minHeight: "95vh" }} className=" d-flex flex-column flex-md-row fade faderight aboutme " >
+        <main style={{ minHeight: "95dvh" }} className=" d-flex flex-column flex-md-row fade faderight aboutme " >
 
           <div className="text-center fadephoto">
             <h1 style={{ color: "#6C828C", marginTop: "7vh" }} className="mb-5">Trajetória</h1>
