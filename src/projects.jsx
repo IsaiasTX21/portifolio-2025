@@ -14,12 +14,12 @@ function Projects() {
                 <div className="row" >
 
                 <section style={{ maxHeight: "470px", }} className=" mt-5  col-md-7 d-flex justify-content-center">
-                        <a href="https://refrigeracao-sub-zero.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={subzero} alt="" /></a>
+                        <a href="https://refrigeracao-sub-zero.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={subzero} alt="imagem da aplicação" /></a>
                     </section>
                     
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
                         <h1 style={{ color: "#6F848C" }} className="text-center mt-5  fade  ">Freelancer</h1>
-                        <p style={{ color: "#6F848C" }} className="text-center  mt-5  fade   " >Concerto de equipamentos de refrigeração.</p>
+                        <p style={{ color: "#6F848C" }} className="text-center  mt-5  fade   " >Conserto de equipamentos de refrigeração.</p>
                         <div className="fade"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGLUlEQVR4nO2YS2xUZRTHv39CMcaoibqRhQsWRtEoCxbExEiIEVmgK9mhiZG+2+lj+m5n2mkpnTJtp09FDNGY8JKgsECDRusGEhII0JnpFPukd+7cO4+2klhJUznmu4+Ze+2UlrnXYExP8luRlP/vfuc7595hbKM2aqP+v5UcYq8uDOHWwqcghSGNQZV5zoBGv4E+jV6VOY5fo8dAt0ZXmqRP4wgo0YlbyQ72StYCC0O4kAo9lCH0QIbQxuD+DMG7VwZPGkKn6NTowPmsBeYHcflfD+3LEJrjVUl04LIVge+stojpBNfJXJcSXOUwvs1aYK4fn1vt66wEepTgKodwNPsT6EWr1RbJSqAblGhXwlP8EDzZn0AvK7Ha19kIJH1q+EQbhxVnLZDsZfsztUiiCzTVChr3qPzWotG8kskjazPNhQcMAp2geBso3gqKtbEPshaY72G7MvU1f0Jjh5+m0LS8JuupmaMv0txgWoD3Pg8f94BiLeytrAUSPezl1VrktieHQtOSLQJT/c8pozolwJ9+i4abvZS1wO/97NnV5jVvj+DtCRsE7tOkL8d0B5TgzSoLbvZM1gJEDIlOLGVaMhNuUDBw3bLA8mJCuQPGbR9rBsXcINmNJWIMzEolOxExbkZtO9IkP4Hrw6awwfYXaKwBaepBE51rIxgWHt85MZeK7ILArFbCi+tK8PRmVJjmJ3DlvElgtPs1kj3pCcJ56B3QC4o1qciNuGZZIH4YPxiDKwumXRP49WvzCfTvIqklPUE4Dysw3w2KNapI9fjeukA7vtJD69uRc8cFCl0aMAkEjr5PY7VQqVFZzx6I+g0n4APJDSpSPb60LJBoR6ceWt+OvEVmXaDAhXbLlzhxxUtSr2GEekFyvYpUC68NJ8Ccemi9rzmCCxT8ps6yQGy4nmJ9BoFDILlORaphldZPoI19mAruSRPhAieKLQtIl4op3m8Q8IDkWpBcA5Kr2AHLAnIL25MKrm/HZpDYBBo5/pFlgeiFAyYBPv+lGpBUDZKd7B3rAm623RhcXzJcIFwFGnVqVGpUpAmVm+f9uBe0cPMLk4B4dh8lDC9yMp8+1SCpip8Ce92yQNzNtijB3QZcILERNOYEhSs1KlRmatJThF9E44iM9IDuhs+ZBGZP7DK9ifL24eElJyhWxp63LEButkl24S99Oyo0gaKNoKDvDfMeGD5JE05timgX0Sgw2w36Y3rYJDBzfHv6TXRQC18JEitxn3JZDrOjYi4k9O2YWjINoEDrNvMeuPoTjVeApDrtItYaFtQg6E4X6J58yyzw2daUAP/yi1aCohWgaDnizK6SGxDSgxuWDAUbtpgvbThMga7dFC7fTFMVIKEKSn+LftCU7zESTu+h5cXkqq/S8/5UeIqWIWifQD1+Mfa1smTqQKGqJzJOnuDoKI2c66AR75s0e3I3Ja8NKW+dmWrCt9n0a0S0TEV04Gf7BOpwytjXCrWg0VJQcHwm6zG6fO+u8iqR+pT0gqIOFdGBk7YJSLXo00Pr8Fk95gAFzrZSaDT80AK8lZJX/TTTZd7CYqlGCXrtE6hhjXpofclwBCdoqgwUdmyikbYdFDjdRKHgyKoCvI3mbxwj4cy7yp2I8N9/DCOU7xqxRKOINdgnUM0OGoMro07HqSKUgyZLQaMlm2jEs4MCp5ooOHKDlhfjtHDzGEXO7DWFNn4DL+hbuBEkFqtEitgn9glUsfcyhebzWhl7+ujTJsisAzRZDAoW5tCUL0eZQsYnvRpyNX/yPDxIKGD77BOoZjtToY3B9dD66FPHn4p2Gdf9Y5ZXDR4pBEUKQLP5bKdtAokS9lS0EktrhtaCi470ZXzg56NPfTXhf0sPrpCPJf5/MjsrWo42U+gMTzs1QdQpomD6XOxTv635SFb6vNAUOk0eWm0Nn5IoY/ujZbgYdWDRMK9XhFbQLuPcEfUtlp+eEtgYusAQOheLQh4uCrkWfkpcb90pZ48LxextsRQdkWIE/xmaX0SdB4UWcjEh5OEoDx3/mD3JHlVJBWyrWMRyI4U4EynC3VTolS3yZyQPP0ZyWY2Yx7ax/2Lx0xHz2V4hH34hH5c0/OJBtpf/26POt1EbtVHsv1V/A6LcFml4KpkvAAAAAElFTkSuQmCC" alt="html-5" />
                             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEEElEQVR4nO3YSUwUQRQA0J5qF4zx4JK4HEz04HrRg3G5aIxr4nJRb+pFOelBYaoaVDSgkcUVN0Qxbgfxoh5QYKp6RBQXkIjKMuAoiAziMKCCKCiU6THQXTgtM12lk5j5SSVkuqu7Hr+2LkmKRCQi8f8GQKQdIELDWiBusw6AxB12AMKvODKAH4YdAEmRZYAN4pu8DZDPNYRejlb21bchcsM6AOHMsAAOvdABEJ/lyUBSOAAgucyQAZxoGQAQ2R4WwIGnhjGAt1kHQLIhLIDEx3p9hay3DJCQY5FZw6alPqAtLS0DlmBizOVGFpHwoO89kl1daB0A86ebAcYm3hMC6KGUDjnfLwO7C3VAnHOadYDiGG0GGBKnUp+PH/Cxs/v3LhTn1AE7ckdZB0jUBhDuMkO88Xi5AbVtP1jA2XrDO3CX1gYOgH8mahA5iKdmNzGAMl8Xe8/pN4YZiLzjarwfAEmpSMD8W14GUODpZLvPCbex/lNugA3hXJGAVbk+BnCr9it7zzGXYRUmd/gBEF8SCdjsZMfFpeov7D2Hyw2rMLkoIgNpwTY21eEKeRAff9HOAlKeGzKAU7kBAJLYYAEJOZUhAxJLP7Nj4GCpcRaK4QcgsilYwM6bL0MGxD76xAKSivVn2slGboAM1eXBAqKvPw8ZsKWglQXse6iPH4Us4wZIyDFb5CC+WtPBANY5fOw9e+731ZVinbP4Afb8CSIBOW+/MoClOc1sBuLv6oD4gvH8gL3OQQCS7kCNm5nG7kgLqxoGBBS972QAc2580K9nvqNAUXsHcI8UXTKYH/BrJmoOBJh4oJABlLgbBwRUtH5nAFOym/TrGXXGGcgrpPF+ACIVgQAj995lALWNXro8s5hGxeu7yd7GDcvy0NW5Ptra2c0Axl3RvwXAqdf68yEpFwawQeIMBBhssqV+7fHSkwWv6OIzT+iK2830gusLbfnGNrw3orI8egbSq42rsCoOgHC22SCtb2q2vJ1u/97DdrEjhuMUSK6JA0CcbgY4olb/8bvALLSulFHRbxuRZjhOQfi4MABAZPefpkqtKy048Zgm57uoq77JFKB1oys1HXRtns8/JuT+X2IpzwxjAO8SB4Bka7DzvhFTVf+B+gZotGx2nILwFmEAGalrrSxi2nfz0CyLxyl2skYYQILOeaJWYtNypo7dRijqXHEAxTFZOEBbdU+6qZxS9uscSGHrSTF5k8QBYvKGCwFk1FH5aBUF+4spMCx2IEDR3ikJDS0Lihptg+Q6QPhz0Ij0GgqSn1E5Qe8egQvusEHiAApGUhyeIf3V2FE0TFYcS2yQJAOIS6xmB0Di1o7P/eef9vsjpLBF0Nn5l/9lnuxAvNK/ekNcoxXtb+037Zrl50YiEpH4P+Mn9Q+e3CSBSHQAAAAASUVORK5CYII=" alt="css3" />
                             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACVUlEQVR4nGNgGAWjYBSMgkEJvt+X+z+YMMOoB+6PxsD/0SREChjoJPN9NBPfH/hQ/z5ajN4f+JD/PlqR3R8cmIFUMNAO/j7qgfsDH+rfR5PQfUpCjBGOl04VQZE7s1Pyf6gv939xUZb/LMyM/yXFWf5HBvD8P7tTcvB7YPtSsf8c7Ewo8gxQzMXJBJYftB74elfuv4IsK1ycnY3pv4YKG5iGiZkasP//dm+QeuDkNgm4GBMT4//TOyBJ5tZRqf9K8qz/cxL5/r++Kjt4Y2DXCnG4GCgZfbyFcOy769gdPqg8cPuYNIq4rxvX/5tHpIg0bxB4AIRd7ThR5DjYmf4nhvP+v7xfamh44N4J6f/62uwYJRAzMyPYI28Gcx6AYZAjy7L5//NwYRanOups/59fkBncHoDhp+dk/jeXCfwXE2FBUZ8VzzewHgCV9/g8gF7Ov7gkAy7/YeplJFno5wFQKeLjwvV/3VxRuNjVA1IoHliLJDe3T/i/kS47RnnfXSsIV8/GykQfDyyeLAKu/mGlSU4S3/+JzUL/LU04UDwAavuA1IPaPzAxe0vO/3eOS4PFn1+U+W9rjtADqq3p4oFL+6TgHsCFVRRY4Ummpx4RyiDMyMj4X0qCBaUpAcKlWfz0S0I7l4v95+Nhxup4UFLYugTROAN5pCJHAK+Hbcw4sBalNPMACD84Jf0/O4Hvv6wUK7g8BzWTAz25/x/fLIFV/aH1Ev/D/Xn+qylBGnIC/Mxgh09pE/r/+TauUo2GHqAHZhj1wP3RGPhP1yQ0CkbBKBgFDPQAANX6rlnxM/hBAAAAAElFTkSuQmCC" alt="javascript" />
@@ -29,7 +29,7 @@ function Projects() {
 
                     
                 <section style={{ maxHeight: "470px", }} className=" mt-5  col-md-7 d-flex justify-content-center">
-                        <a href="https://wondrous-liger-5379cd.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={apple} alt="" /></a>
+                        <a href="https://wondrous-liger-5379cd.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={apple} alt="imagem da aplicação" /></a>
                     </section>
                     
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
@@ -43,7 +43,7 @@ function Projects() {
                     </section>
 
                     <section style={{ maxHeight: "470px", }} className=" mt-5  col-md-7 d-flex justify-content-center">
-                        <a href="https://monumental-daffodil-f8f686.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={movie} alt="" /></a>
+                        <a href="https://monumental-daffodil-f8f686.netlify.app/" className="fade"><img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={movie} alt="imagem da aplicação" /></a>
                     </section>
 
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
@@ -57,7 +57,7 @@ function Projects() {
                     </section>
 
                     <section style={{ maxHeight: "470px" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://whimsical-beignet-2ebfa9.netlify.app/" className="fade ">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={store} alt="" /></a>
+                        <a href="https://whimsical-beignet-2ebfa9.netlify.app/" className="fade ">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={store} alt="imagem da aplicação" /></a>
 
                     </section>
                     <section className="  mt-5  col-md-5 d-flex flex-column justify-content-around align-items-center ">
@@ -71,7 +71,7 @@ function Projects() {
                             <img className="ms-1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD/0lEQVR4nO2Y3WtcRRiHV+g/IKg9s9pcWJVeCt4VEdS01ptetje9akVNztkoggW/GlExMUKhUkigBQPFgFUsTYooSC1VaSghwS+K0aqtSUy2aXaTTfYjOzNPmXN2sysmu2d2YzbFfeHH3rzM+T3vvO/sOROJNKMZzfh/RGeELW0t3LkR6oywZd2Me1H2ew5jrkB5AjZCrnmWw1j7VvbVZ15weKNMe2tpKy/XZL7jXh70BLLRAK4g334fD9RS/Vcbbd4rQbxiDeAK+jYRQF8tO9DfaONeSf32O+AwsAmM48vhI3sAwScNNy5WdNoawBMMhVm8exf/DA3aSIGSoPKQz0D8D82lAU3P0zXMgMOg/Q44jNoCFI1rWTIvlzUyFyif1SwvaYa6LQEEI5b2ucN1SIQFKK/4lx8UdEzzxTHNV72a0UFNel6Tz2iW0wHEyWesZmDOeLJpnx1hF/cBCuZlbu281x6GqSuB+dyiZvxbbbcLUR4KD+DwXGiA1rJez1Y2dfIQvvlsSrM4q4lFrebgeZsdGLYCMH2+HLRIpdyuJyG7oMkuKOauK9s5uBTKfEyw22bhrlZKA5quDNDvarLzikxSMXLGroU8oyitlc3fzXbPYcIWwJg31TftsVZez1MQ/zUwn4or3n7M0rzw2+ivtnu4f7WW2eE6HPEESdtFTVsUTxcD8FkngY7A2XfgwgnNla8D45mEYmZccXSvvXmvpKTn8IbxXA7QW+uCBsA/WQqnSy4VDKnp80yhXYzSCcXvw4q+A5oXWuoCoKDedQMoNz75s2byJ8WE0Y/Kb5v0XKClm4qlWcW1MUXPnnUE6BC0uIKYK5iuCcCvuPYrvVqOqfj7e+Dyac3iDcViXDH3p+KtnTXMQeDRM57/NQsv3oXwBFdtAYrtYqpcLX94QJOakaSmJd+dsj5KfzMeK55E7YJHrQCeYKXPTYtUyz++X7MwLVn4W3JjXNoA6FiUnZEw4TpcDLvwuwYgEQyp6e9q+Uf3at/8/JQkOSHp2Ba6+hciYSMW5aANQHFATX9Xyz/zpmJ+Uvqa+N5qBw6FBzB/aBYAxdMlNVMZ4Pg+zezVwLzR+d7wM7DqH1iVNroZCuBxfPOm+gbgXLfmXLf5VQx1KT5/T/HNh4rxi6XKG8V/kbz+SMjqO8xamfcBBCNhAcyxaF4PiqeL6XFfUyXD5bo+KunZbfUudNkewGEwLMCK8enVjSeuSSZ/kIx8qjgV07y0PbRxCjtw9nb/qP/YGsBcZWwC49R8rXLbX2x5dbzgbZarxcONNu7Vc8Xuv6E65Bpt3nXItkXZZg1QdjuhGwigXcGzkXrCfOS7gvO1fG7WoaR5pivYVZf5ZjSjGc2I/NdxCxYXR2hUdbejAAAAAElFTkSuQmCC" alt="bootstrap"></img></div>
                     </section>
                     <section style={{ maxHeight: "470px" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://playful-tarsier-d7b87e.netlify.app/" className="fade">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={wheather} alt="" /></a>
+                        <a href="https://playful-tarsier-d7b87e.netlify.app/" className="fade">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={wheather} alt="imagem da aplicação" /></a>
 
                     </section>
                     <section className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center ">
@@ -86,7 +86,7 @@ function Projects() {
                     </section>
 
                     <section style={{ maxHeight: "470px" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://rococo-panda-dbd530.netlify.app/" className="fade ">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={calculator} alt="" /></a>
+                        <a href="https://rococo-panda-dbd530.netlify.app/" className="fade ">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={calculator} alt="imagem da aplicação" /></a>
                     </section>
                     <section className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center ">
                         <h1 style={{ color: "#6F848C" }} className="text-center mt-5 fade  "> calculator</h1>
