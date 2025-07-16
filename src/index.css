@@ -33,18 +33,6 @@ text-decoration: none;
 
 }
 
-@media only screen and (max-width: 768px) {
-  .desk {
-    display: none !important;
-
-  }
-
-  .sm {
-    display: none !important;
-  }
-
-}
-
 h1 {
    color:" #6F848C"
 }
@@ -54,25 +42,54 @@ h1 {
   border: 0px solid white;
 }
 
-.aboutme{
+.nave{
   background-image: url("https://i.ibb.co/v6TgKTtW/411046047-e14a7d38-f376-44b3-bce9-0b222a992199-Photoroom.png"); 
-   background-size: 700px;
+   background-size: 600px;
    background-repeat: no-repeat;
    background-position-x: 50%;
-   background-position-y: 310px;
+   background-position-y: 220px; }
 
-    }
-
-@media only screen and (width < 768px) {
-  .aboutme {
-
-  margin-top: auto;
-  margin-bottom: auto; 
-  background-image: none;
+   @media only screen and (height < 700px)  {
+  #lua{
+    width: 150px !important;
+  }
+  main{
+    background-size: 300px !important;
+  }
+ .nave{
+     background-size: 200px !important;
+ }
   }
 
 
+@media only screen and (width < 768px) {
+  .nave {
+   background-size:90%;
+     background-position-y: 70%;
+}}
+
+@media only screen and (height < 600px) {
+  .nave {
+   background-size:10%;
+     background-position-y: 90%;
 }
+}
+
+
+@media only screen and (width <500px) {
+  .nave {
+   background-size:60%;
+     background-position-y: 85%;
+    
+}}
+
+@media only screen and (width <320px) {
+  .nave {
+   background-size:30%;
+     background-position-y: 45%;
+    
+}}
+
 
 
 
