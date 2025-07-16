@@ -1,5 +1,5 @@
 import Header from "./hearder";
-import apple from "./asserts/iPad-PRO-11-wondrous-liger-5379cd.netlify.app.png"
+import apple from "./asserts/Apple.png"
 import world from "./asserts/world.png"
 import store from "./asserts/store.png"
 import movie from "./asserts/movie.png"
