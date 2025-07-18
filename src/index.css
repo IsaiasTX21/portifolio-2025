@@ -42,12 +42,7 @@ h1 {
   border: 0px solid white;
 }
 
-.nave{
-  background-image: url("https://i.ibb.co/v6TgKTtW/411046047-e14a7d38-f376-44b3-bce9-0b222a992199-Photoroom.png"); 
-   background-size: 600px;
-   background-repeat: no-repeat;
-   background-position-x: 50%;
-   background-position-y: 220px; }
+
 
    @media only screen and (height < 700px)  {
   #lua{

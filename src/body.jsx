@@ -13,7 +13,7 @@ function Body() {
 
         <main style={{ minHeight: "95dvh", backgroundColor: "#010119", backgroundRepeat: "no-repeat", backgroundSize: "95vh", backgroundImage: "url('https://i.ibb.co/HLC6rDTz/planet-earth-1457453-1280-Photoroom.jpg')", backgroundPositionY: "105%", backgroundPositionX: "50%" }} className="  d-flex flex-column text-center      ">
 
-          <img id="lua" className=" ms-auto me-auto mt-4 d-md-block" style={{ width: "220px" }} src={lua} />
+          <img id="lua" className=" ms-auto me-auto mt-4 d-md-block" style={{ width: "170px" }} src={lua} />
 
           
           <h1 style={{ color: "#6F848C" }} className="text-center  fade mt-5 "> Hello world !</h1>

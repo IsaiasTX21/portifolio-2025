@@ -1,15 +1,18 @@
 import Header from "./hearder";
+import Isaias from "../src/asserts/isaias.png"
+
+
 function Sobremim() {
   return (
     <>
       <Header />
       <div style={{ display: "flex", flexDirection: "column", backgroundColor: "#01011A" }}>
 
-        <main style={{ minHeight: "95dvh" }} className=" d-flex flex-column flex-md-row fade faderight nave " >
+        <main style={{ minHeight: "95dvh"}} className=" d-flex flex-column flex-md-row fade faderight nave " >
 
           <div className="text-center fadephoto  d-flex flex-column ms-auto me-auto">
             <h1 style={{ color: "#6F848Cff", marginTop: "4vh" }} className="mb-4">Trajetória</h1>
-            <p className=" mt-md-0  ms-auto me-auto w-75 " style={{ fontSize: "16px", color: "#6F848C" }}>
+            <p className=" mt-md-0  ms-auto me-auto " style={{ fontSize: "16px", color: "#6F848C" }}>
               Sou um jovem que não mede esforços para alcanças meus objetivos. Tenho experiência com alguns projetos freelancer e uma sede de aprendizado que não possue limites.
             </p>
             <h2 style={{ color: "#6F848Cff" }}>Habilidades</h2>
@@ -40,7 +43,7 @@ function Sobremim() {
               </div>
 
             </div>
-
+            <img   height="40%" width="40%" style={{borderRadius:"50%", margin:"auto"}} src={Isaias}/>
           </div>
         </main>
       </div>
