@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
     
-<header style={{height:"5vh", backgroundColor: "#01011A"}} className="sticky-top bg-gradient" >
+<header style={{height:"5vh", backgroundColor: "#000000ff"}} className="sticky-top bg-gradient" >
   <nav class="navbar d-flex h-100">
 
       <div class="  w-100 position-absolute " >
