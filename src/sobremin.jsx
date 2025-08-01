@@ -12,55 +12,58 @@ import isaias from "../src/asserts/isaias.png"
 function Sobremim() {
   return (
     <>
-      <Header />
-      <div id="sobremim" className="">
+     
 
-        <main style={{ minHeight: "95dvh"}} className=" bg-black fadephoto  d-flex  flex-column flex-md-row  nave " >
 
-          <div  style={{ minHeight: "95dvh"}} className="text-center d-flex flex-column ms-auto me-auto">
-            <h1 style={{ color: "#6F848Cff", marginTop: "4vh" }} className="mb-4">Trajetória</h1>
-            <p id="aboutme" className=" mt-md-0  ms-auto me-auto " style={{ color: "#6F848C" }}>
+        <main   >
+              <Header />
+
+          <div  id="sobremim" className="text-center position-relative d-flex flex-column ms-auto me-auto">
+            <h1 style={{ marginTop: "4vh" }} className="mb-4">Trajetória</h1>
+            <p id="aboutme" className=" mt-md-0  ms-auto me-auto " >
              Sou um jovem desenvolvedor movido por desafios e pela vontade de evoluir a cada linha de código. 
              Tenho experiência com projetos como freelancer e uma curiosidade insaciável que me leva sempre a 
              buscar mais conhecimento. 
             </p>
-            <h2 style={{ color: "#6F848Cff" }}>Habilidades</h2>
+            <h2 >Habilidades</h2>
 
             <div className="d-flex justify-content-center ">
               <div className="ms-1">
                 <img src={html} alt="html-5" />
-                <p style={{ color: "#6F848C" }}>html 5</p></div>
+                <p >html 5</p></div>
               <div className="ms-1" >
                 <img src={css} width={48} alt="css3" />
-                <p style={{ color: "#6F848C" }}>css 3</p>
+                <p >css 3</p>
               </div>
               <div className="ms-1">
                 <img src={js} alt="javascript" />
-                <p style={{ color: "#6F848C" }}>js</p>
+                <p >js</p>
               </div>
               <div className="ms-1">
                 <img src={ts}/>
-                        <p style={{ color: "#6F848C" }}>ts</p>
+                        <p >ts</p>
               </div>
               <div className="ms-1">
                 <img src={boostrap} />
-                <p style={{ color: "#6F848C" }}>bs 5</p>
+                <p >bs 5</p>
               </div>
               <div className="ms-1">
                 <img src={react} alt="bootstrap"></img>
-                <p style={{ color: "#6F848C" }}>react</p>
+                <p >react</p>
               </div>
-              
+                
+                </div> 
+                        <img  id="astronauta" className=" mt-auto"    src={isaias} ></img>
+                
+                </div>
+
+
     
-            </div>
-                  <img style={{ width:"320px"}}    src={isaias} className=" ms-auto me-auto mt-auto"></img>
-          
-          </div>
 
         </main>
 
   
-      </div>
+
 
     </>
   );

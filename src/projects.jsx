@@ -14,8 +14,9 @@ function Projects() {
 
     return (
         <>
+ 
+            <div style={{ backgroundColor: "#000000ff" }} id="project" className="container-fluid  "   >
             <Header />
-            <div style={{ backgroundColor: "#000000ff" }} className="container-fluid w-100 "   >
                 <div className="row" >
 
                 <section style={{ maxHeight: "470px", }} className=" mt-5  col-md-7 d-flex justify-content-center">
@@ -23,8 +24,8 @@ function Projects() {
                     </section>
                     
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
-                        <h1 style={{ color: "#6F848C" }} className="text-center mt-5  fade  ">Freelancer</h1>
-                        <p style={{ color: "#6F848C" }} className="text-center  mt-5  fade   " >Conserto de equipamentos de refrigeração.</p>
+                        <h1  className="text-center mt-5  fade  ">Freelancer</h1>
+                        <p  className="text-center  mt-5  fade   " >Conserto de equipamentos de refrigeração.</p>
                         <div className="fade">                  
                        <img src={html} alt="html icon" />
                         <img src={css} width={48} alt="css icon" />
@@ -40,8 +41,8 @@ function Projects() {
                     </section>
 
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
-                        <h1 style={{ color: "#6F848C" }} className="text-center mt-5  fade  ">Movie</h1>
-                        <p style={{ color: "#6F848C" }} className="text-center  mt-5  fade   " >Descubra os filmes que estão em alta e extraia informação deles.  </p>
+                        <h1  className="text-center mt-5  fade  ">Movie</h1>
+                        <p  className="text-center  mt-5  fade   " >Descubra os filmes que estão em alta e extraia informação deles.  </p>
                         <div className="fade"> 
                         <img src={html} alt="html icon" />
                         <img src={css} width={48} alt="css icon" />
@@ -52,13 +53,13 @@ function Projects() {
                     </section>
 
                     <section style={{ maxHeight: "470px" }} className="  mt-5 col-md-7 d-flex mt-md-5  justify-content-center">
-                        <a href="https://playful-tarsier-d7b87e.netlify.app/" className="fade">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={world}  alt="imagem da aplicação" /></a>
+                        <a href="https://storied-pegasus-683f73.netlify.app/" className="fade">  <img className="fade" style={{ maxHeight: "100%", width: "100%" }} src={world}  alt="imagem da aplicação" /></a>
 
                     </section>
 
                     <section className="   mt-5 col-md-5 d-flex flex-column justify-content-around align-items-center ">
-                        <h1 style={{ color: "#6F848C" }} className="text-center  mt-5 fade  "> wheather</h1>
-                        <p style={{ color: "#6F848C" }} className=" text-center mt-5  fade"> Descubra as condições climáticas de todas as regiões do mundo. </p>
+                        <h1  className="text-center  mt-5 fade  "> wheather</h1>
+                        <p  className=" text-center mt-5  fade"> Descubra as condições climáticas de todas as regiões do mundo. </p>
                         <div className="fade"> 
                         <img src={html} alt="html icon" />
                         <img src={css} width={48} alt="css icon" />
@@ -75,8 +76,8 @@ function Projects() {
 
                     </section>
                     <section className="  mt-5  col-md-5 d-flex flex-column justify-content-around align-items-center ">
-                        <h1 style={{ color: "#6F848C" }} className="text-center mt-5  fade "> virtual Store</h1>
-                        <p style={{ color: "#6F848C" }} className=" text-center  mt-5  fade ">Uma loja virtual onde você pode encontrar roupas, jóias e informática.  </p>
+                        <h1  className="text-center mt-5  fade "> virtual Store</h1>
+                        <p  className=" text-center  mt-5  fade ">Uma loja virtual onde você pode encontrar roupas, jóias e informática.  </p>
                         <div className="fade"> 
                         <img src={html} alt="html icon" />
                         <img src={css} width={48} alt="css icon" />
@@ -91,8 +92,8 @@ function Projects() {
                     </section>
                     
                     <section className="col-md-5 d-flex flex-column justify-content-around align-items-center">
-                        <h1 style={{ color: "#6F848C" }} className="text-center mt-5  fade  ">Apple</h1>
-                        <p style={{ color: "#6F848C" }} className="text-center  mt-5  fade   " >Veja os dispositivos mais incríveis do mercado.</p>
+                        <h1  className="text-center mt-5  fade  ">Apple</h1>
+                        <p  className="text-center  mt-5  fade   " >Veja os dispositivos mais incríveis do mercado.</p>
                         <div className="fade"> 
                         <img src={html} alt="html icon" />
                         <img src={css} width={48} alt="css icon" />

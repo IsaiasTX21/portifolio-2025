@@ -7,24 +7,66 @@
   cursor: url(136480024_27bb866d-8a3c-41fe-88ef-528d3e8772a1.svg) 16 16, pointer;
 }
 
+
+h1{
+color: #DDDDDD !important;
+}
+
+h2{
+color: #DDDDDD !important;
+}
+
 p{
 font-size: 20px;
+color: #DDDDDD;
+}
+li a{
+color: #DDDDDD !important;
 }
 
 
-#aboutme{
-  width: 90%;
-}
 
 
 #principal{
-  min-height: 95dvh;
+
   background-color: black;
+
   background-repeat: no-repeat;
-  background-size: 95vh;
-  background-image: url("../src/asserts/fullworld.png");
-  background-position-y: 105%;
-  background-position-x: 50%;
+  background-size: cover;
+  min-height:calc(100vh - 40px);
+
+}
+
+#sobremim{
+
+  background-color: black;
+
+  min-height:calc(100vh - 40px);
+}
+
+
+#project{
+  
+  background-color: black;
+
+  min-height:calc(100vh - 40px);
+
+
+}
+
+#astronauta{
+width: 450px;
+margin-left: calc(50% - 225px);
+}
+
+
+#helloworld{
+margin-top: 50px;
+}
+
+#world{
+  width: 800px;
+   margin-left: calc(50% - 400px) ;
 }
 
 .fade {
@@ -42,6 +84,32 @@ h1 {
   border: 0px solid white;
 }
 
+
+@media only screen and ( width >1000px){
+#aboutme{
+width: 60%;
+}
+
+}
+
+@media only screen and (width < 800px) {
+#world{
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+}
+
+}
+
+@media only screen and (width < 768px) {
+  .nave {
+    background-size: 90%;
+    background-position-y: 70%;
+  }
+}
+
+
+
 @media only screen and (height < 700px) {
   #lua {
     width: 150px !important;
@@ -56,36 +124,30 @@ h1 {
   }
 }
 
-@keyframes fade {
-  from {
-    opacity: 0;
-  }
+@media only screen and (width < 500px) {
+  #astronauta {
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    
+  }}
 
-  to {
-    opacity: 1;
-  }
+
+
+@media only screen and (width < 330px) {
+  #world{
+width: 50%;
+margin-left: calc(50% - 25%);
+
 }
-
-@media only screen and (width < 768px) {
-  .nave {
-    background-size: 90%;
-    background-position-y: 70%;
+  #astronauta {
+    width: 40%
   }
-}
-
-@media only screen and (height < 600px) {
-  .nave {
-    background-size: 10%;
-    background-position-y: 90%;
+  #helloworld{
+  margin-top: 20px;
   }
-}
 
-@media only screen and (width <500px) {
-  .nave {
-    background-size: 60%;
-    background-position-y: 85%;
 
-  }
   p{
 font-size: 16px !important;
 width: 95%;
@@ -94,7 +156,16 @@ width: 95%;
 
 p{
 font-size: 13px !important;
-}
+}}
 
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
