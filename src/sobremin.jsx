@@ -18,12 +18,12 @@ function Sobremim() {
         <main   >
               <Header />
 
-          <div  id="sobremim" className="text-center position-relative d-flex flex-column ms-auto me-auto">
-            <h1 style={{ marginTop: "4vh" }} className="mb-4">Trajetória</h1>
-            <p id="aboutme" className=" mt-md-0  ms-auto me-auto " >
-             Sou um jovem desenvolvedor movido por desafios e pela vontade de evoluir a cada linha de código. 
-             Tenho experiência com projetos como freelancer e uma curiosidade insaciável que me leva sempre a 
-             buscar mais conhecimento. 
+          <div  id="sobremim" className="text-center  position-relative d-flex flex-column ms-auto me-auto">
+            <h1 style={{ marginTop: "4vh" }} className="mb-4">Quem sou eu ?</h1>
+            <p  id="aboutme" className="  mt-md-0  ms-auto me-auto " >
+         Sou um jovem desenvolvedor movido por desafios e pela vontade de evoluir a cada linha de código. 
+         Tenho experiência com projetos como freelancer e uma curiosidade insaciável que me impulsiona 
+         a buscar sempre mais conhecimento. Minha paixão é o Front-End, e foi ela que me trouxe até aqui.
             </p>
             <h2 >Habilidades</h2>
 

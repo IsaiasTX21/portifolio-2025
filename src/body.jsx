@@ -5,6 +5,7 @@ import world from "../src/asserts/fullworld.png"
 
 
 
+
 function Body() {
 
   return (
@@ -20,10 +21,10 @@ function Body() {
 
           <div >
           <h1 id="helloworld"  className="text-center  fade  "> Hello world !</h1>
-          <p style={{ fontSize: "18px"}} className=" mt-3 w-75  fade ms-auto me-auto ">
+          <p style={{ fontSize: "25px"}} className=" mt-3 w-75  fade ms-auto me-auto ">
             Me chamo Isaias e gostaria que você  enxergasse o meu mundo como eu vejo. </p>
-          <a  id="resume" href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" 
-           className=" fade btn bg-primary text-white mt-3 btn ms-auto me-auto" >currículo</a>
+          <a style={{backgroundColor:"#04609E"}} id="resume" href="https://drive.google.com/file/d/1IKLGIUwCZTcSwgU5HRqQz_VP95eqVAC4/view?usp=drive_link" 
+           className=" fade btn mt-3 text-white btn ms-auto me-auto" >currículo</a>
             </div>
             
   
